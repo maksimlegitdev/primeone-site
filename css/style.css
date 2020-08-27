@@ -26,6 +26,9 @@ html, body {
   font-weight: 400;
 }
 
+.page__body {
+  overflow-x: hidden;
+}
 .page__body--lock {
   overflow: hidden;
 }
@@ -263,7 +266,6 @@ ul {
 .product {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 .product__img {
   display: block;
@@ -290,6 +292,7 @@ ul {
 .product__button {
   margin-right: 15px;
   margin-bottom: 24px;
+  align-self: flex-start;
 }
 
 .why {
@@ -338,6 +341,7 @@ ul {
 }
 .why__item {
   flex: 0 1 50%;
+  max-width: 50%;
   margin: 25px 0;
 }
 
@@ -355,9 +359,13 @@ ul {
   margin-right: 12px;
 }
 .why-item__body {
+  flex: 1 0 0%;
+}
+.why-item__body-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 .why-item__title {
   color: #000000;
@@ -371,6 +379,7 @@ ul {
   font-size: 15px;
   line-height: 1.65;
   padding-right: 30px;
+  max-width: 100%;
 }
 
 .hello {
