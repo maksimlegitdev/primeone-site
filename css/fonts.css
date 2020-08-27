@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "AkzidenzGroteskBQ";
+  src: url("../fonts/AkzidenzGroteskBQCondensedBold.eot");
+  src: local("☺"), url("../fonts/AkzidenzGroteskBQCondensedBold.woff") format("woff"), url("../fonts/AkzidenzGroteskBQCondensedBold.ttf") format("truetype"), url("../fonts/AkzidenzGroteskBQCondensedBold.otf") format("opentype"), url("../fonts/AkzidenzGroteskBQCondensedBold.eot") format("embedded-opentype"), url("../fonts/AkzidenzGroteskBQCondensedBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
